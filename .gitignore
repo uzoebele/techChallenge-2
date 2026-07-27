@@ -1,1 +1,19 @@
+# Node.js packages
 node_modules/
+**/node_modules/
+npm-debug.log*
+
+# Environment files and secrets
+.env
+*.pem
+
+# Terraform local files and state
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Windows and editor files
+Thumbs.db
+.DS_Store
